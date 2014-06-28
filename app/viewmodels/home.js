@@ -5,7 +5,7 @@ function (ko,
           app
           ) {
     return {
-          name : ko.observable('gagan sm ')
+          name : ko.observable('gagan sm')
           //showName : app.showMessage(name)
         }
 });

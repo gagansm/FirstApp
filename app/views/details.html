@@ -1,0 +1,11 @@
+﻿<div class="details-page">
+    <h1>
+    My Expenses
+    </h1>
+    <ul data-bind="foreach: dailyExpenses">
+        <li>
+        <span  data-bind="text: $data.category"></span>
+        <input type=number data-bind="value: $data.rate"></input>
+        </li>
+    </ul>
+</div>
